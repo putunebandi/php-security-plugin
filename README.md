@@ -17,12 +17,11 @@ This project is a simple implementation to improve security in PHP applications.
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Version](#version)
 - [Thanks](#thanks)
 
 ## Installation
 
-You can use this security plugin easily by simply copying the code from the BandiSecurity.php and including the script into the main configuration or header file.
+You can use this security plugin easily by simply copying or download the code from the [BandiSecurity.php](BandiSecurity.php) and including the script into the main configuration or header file.
 
 ## Usage
 
