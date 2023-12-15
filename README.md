@@ -5,7 +5,7 @@
 [![issues](https://img.shields.io/github/issues/putunebandi/php-security-plugin?color=blue)](https://github.com/putunebandi/php-security-plugin/issues)
 
 <p align="center">
-  <img src="https://gist.githubusercontent.com/putunebandi/7bafeac9025f05612c54fd4698f26226/raw/6170bbca395bedcfd8ca5bc4d768b0392f5b3302/picture_BandiSecurity.svg" alt="BandiSecurity Logo" width="40%">
+  <img src="https://gist.githubusercontent.com/putunebandi/7bafeac9025f05612c54fd4698f26226/raw/6170bbca395bedcfd8ca5bc4d768b0392f5b3302/picture_BandiSecurity.png" alt="BandiSecurity Logo" width="40%">
 </p>
 
 This project is a simple implementation to improve security in PHP applications. The Security class provides several basic security features, including setting security headers and filtering parameters to protect against potential attacks.
