@@ -12,6 +12,10 @@ This project is a simple implementation to improve security in PHP applications.
 
 ---
 
+| :exclamation:  **Disclaimer**  |
+|---------------------------------|
+| This plugin is created solely for educational purposes and to provide an additional layer of security against cyber attacks. While it can help reduce risks, **it is highly recommended to continue using a comprehensive Security Information and Event Management (SIEM) system for optimal protection.** We explicitly state that we are not responsible for any illegal actions taken through the use of this plugin." |
+
 ## Resources
 
 - [Installation](#installation)
@@ -27,7 +31,11 @@ You can use this security plugin easily by simply copying or download the code f
 
 You can enhance the security layer of your PHP project by utilizing the 'Security' class. It offers easy integration and can be customized to meet your specific needs. Here's an example code snippet for implementation.
 
-1. Using include_once() or require_once()
+1. Using .htaccess
+```text
+php_value auto_prepend_file '/home/putunebandi/php-security-plugin/BandiSecurity.php'
+```
+2. Using include_once() or require_once()
 ```php
 <?php
 // ...
@@ -37,7 +45,7 @@ require_once('BandiSecurity.php');
 // ...
 ?>
 ```
-2. Adding Code to Main Configuration or Header
+3. Adding Code to Main Configuration or Header
 ```php
 <?php
 
